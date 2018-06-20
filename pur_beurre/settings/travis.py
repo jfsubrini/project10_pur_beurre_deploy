@@ -1,3 +1,8 @@
+"""
+Travis settings for a specific database.
+"""
+
+
 from . import *
 
 
