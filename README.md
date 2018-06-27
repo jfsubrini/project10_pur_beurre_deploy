@@ -19,7 +19,7 @@ Program developed and deployed by Jean-François Subrini, June 2018.
 
 * You can access the program from your Terminal executing *./manage.py runserver* and watching it from your *localhost:8000* in your favorite browser.
 
-* You can also and more easily go directly online at .................(*to be completed*). On this site, **the database is updated every week**. A cron job is running at midnight on Sunday morning.
+* You can also and more easily go directly online at the **IP address of the DigitalOcean server : 165.227.231.112**. On this site, **the database is updated every week**. A cron job is running at midnight on Sunday morning.
 
 
 ## How to update the category list and food data if running this app with localhost ?
