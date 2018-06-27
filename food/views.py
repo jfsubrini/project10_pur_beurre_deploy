@@ -64,6 +64,7 @@ def foodresult(request):
 
     if request.method == 'GET':
         query = request.GET.get('query')
+        query = query.strip()  # to erase the spaces
         if not query:
             return render(request, 'food/home.html')
 
