@@ -21,7 +21,6 @@ from .forms import AccountForm
 def register(request):
     """View to the user account creation page and validation of the user form."""
     # Analysis and treatment of the register form that has been sent.
-    jklkljjlklkjljk
     if request.method == "POST":
         form = AccountForm(request.POST)
         if form.is_valid():
