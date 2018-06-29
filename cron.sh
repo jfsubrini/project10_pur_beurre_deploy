@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # bash script for a crontab to run the Custom Django Management Command off_api
 
